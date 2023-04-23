@@ -1,0 +1,99 @@
+2023-04-19 22:38:32,013 : INFO : utils : _init_num_threads : NumExpr defaulting to 8 threads.
+2023-04-19 22:38:32,155 : INFO : controller : load_config : loading Config file.
+2023-04-19 22:38:32,155 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-19 22:38:32,155 : INFO : controller : main : Extracting xml source file url
+2023-04-19 22:38:32,155 : INFO : controller : main : Extracting csv file path
+2023-04-19 22:38:32,155 : INFO : controller : main : Extracting xml file download path
+2023-04-19 22:38:32,155 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-19 22:38:32,155 : INFO : controller : main : Calling download function
+2023-04-19 22:38:32,155 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-19 22:38:33,375 : INFO : helper_functions : download : xml file downloaded
+2023-04-19 22:38:33,375 : INFO : controller : main : Calling parse_source_xml function
+2023-04-19 22:38:33,376 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-19 22:38:33,377 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-19 22:38:33,377 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-19 22:38:33,377 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-19 22:38:33,377 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-19 22:38:33,377 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-19 22:38:33,377 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-19 22:38:33,377 : INFO : controller : main : Calling download function
+2023-04-19 22:38:33,377 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-19 22:38:33,891 : INFO : helper_functions : download : xml file downloaded
+2023-04-19 22:38:33,892 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-19 22:38:34,097 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-19 22:38:34,097 : INFO : controller : main : Calling create csv function
+2023-04-19 22:38:34,097 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-19 22:38:34,099 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-19 22:38:34,099 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-19 22:38:39,966 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-19 22:38:40,056 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-19 22:38:40,165 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-19 22:38:40,545 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-19 22:38:40,621 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2023-04-19 22:38:40,850 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Failed to upload /Users/naved/Desktop/SteelEyeAssignment-master/csv_file/DLTINS_20210117_01of01.csv to steel-eye-bucket-pro/DLTINS_20210117_01of01.csv: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2023-04-19 22:43:55,725 : INFO : utils : _init_num_threads : NumExpr defaulting to 8 threads.
+2023-04-19 22:43:55,873 : INFO : controller : load_config : loading Config file.
+2023-04-19 22:43:55,873 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-19 22:43:55,873 : INFO : controller : main : Extracting xml source file url
+2023-04-19 22:43:55,873 : INFO : controller : main : Extracting csv file path
+2023-04-19 22:43:55,873 : INFO : controller : main : Extracting xml file download path
+2023-04-19 22:43:55,873 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-19 22:43:55,873 : INFO : controller : main : Calling download function
+2023-04-19 22:43:55,873 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-19 22:43:56,586 : INFO : helper_functions : download : xml file downloaded
+2023-04-19 22:43:56,586 : INFO : controller : main : Calling parse_source_xml function
+2023-04-19 22:43:56,586 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-19 22:43:56,587 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-19 22:43:56,587 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-19 22:43:56,587 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-19 22:43:56,588 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-19 22:43:56,588 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-19 22:43:56,588 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-19 22:43:56,588 : INFO : controller : main : Calling download function
+2023-04-19 22:43:56,588 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-19 22:43:57,102 : INFO : helper_functions : download : xml file downloaded
+2023-04-19 22:43:57,103 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-19 22:43:57,286 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-19 22:43:57,286 : INFO : controller : main : Calling create csv function
+2023-04-19 22:43:57,286 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-19 22:43:57,288 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-19 22:43:57,288 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-19 22:44:03,192 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-19 22:44:03,291 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-19 22:44:03,407 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-19 22:44:03,794 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-19 22:44:03,869 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2023-04-19 22:44:04,130 : ERROR : helper_functions : aws_s3_upload : Error occurred while extracting - Failed to upload /Users/naved/Desktop/SteelEyeAssignment-master/csv_file/DLTINS_20210117_01of01.csv to steel-eye-bucket-pro/DLTINS_20210117_01of01.csv: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2023-04-19 22:48:53,921 : INFO : utils : _init_num_threads : NumExpr defaulting to 8 threads.
+2023-04-19 22:48:54,061 : INFO : controller : load_config : loading Config file.
+2023-04-19 22:48:54,062 : INFO : controller : load_config : Config file loaded successfully.
+2023-04-19 22:48:54,062 : INFO : controller : main : Extracting xml source file url
+2023-04-19 22:48:54,062 : INFO : controller : main : Extracting csv file path
+2023-04-19 22:48:54,062 : INFO : controller : main : Extracting xml file download path
+2023-04-19 22:48:54,062 : INFO : controller : main : Extracting AWS s3 bucket resource information
+2023-04-19 22:48:54,062 : INFO : controller : main : Calling download function
+2023-04-19 22:48:54,062 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-19 22:48:54,827 : INFO : helper_functions : download : xml file downloaded
+2023-04-19 22:48:54,828 : INFO : controller : main : Calling parse_source_xml function
+2023-04-19 22:48:54,828 : INFO : helper_functions : parse_source_xml : Loading the xml file.
+2023-04-19 22:48:54,828 : INFO : helper_functions : parse_source_xml : Parsing the xml file.
+2023-04-19 22:48:54,828 : INFO : helper_functions : parse_source_xml : Traversing all the doc elements.
+2023-04-19 22:48:54,828 : INFO : helper_functions : parse_source_xml : Extracting the file type
+2023-04-19 22:48:54,829 : INFO : helper_functions : parse_source_xml : Match found for file type DLTINS
+2023-04-19 22:48:54,829 : INFO : helper_functions : parse_source_xml : Extracting the file name
+2023-04-19 22:48:54,829 : INFO : helper_functions : parse_source_xml : Extracting the file download link
+2023-04-19 22:48:54,829 : INFO : controller : main : Calling download function
+2023-04-19 22:48:54,829 : INFO : helper_functions : download : Downloading the xml file.
+2023-04-19 22:48:55,364 : INFO : helper_functions : download : xml file downloaded
+2023-04-19 22:48:55,365 : INFO : helper_functions : unzip_file : Extracting the compressed file
+2023-04-19 22:48:55,552 : INFO : helper_functions : unzip_file : Compressed file extracted
+2023-04-19 22:48:55,552 : INFO : controller : main : Calling create csv function
+2023-04-19 22:48:55,552 : INFO : helper_functions : create_csv : Loading the xml file
+2023-04-19 22:48:55,554 : INFO : helper_functions : create_csv : Parsing the xml file...
+2023-04-19 22:48:55,554 : INFO : helper_functions : create_csv : Extracting the required data from xml
+2023-04-19 22:49:01,497 : INFO : helper_functions : create_csv : All the required data extracted from xml file
+2023-04-19 22:49:01,596 : INFO : helper_functions : create_csv : Dropping empty rows
+2023-04-19 22:49:01,727 : INFO : helper_functions : create_csv : Creating the CSV file
+2023-04-19 22:49:02,133 : INFO : helper_functions : aws_s3_upload : Creating S3 resource object
+2023-04-19 22:49:02,287 : INFO : helper_functions : aws_s3_upload : Uploading the file to s3 bucket
+2023-04-19 22:49:07,009 : INFO : helper_functions : aws_s3_upload : File uploaded successfully to s3 bucket
